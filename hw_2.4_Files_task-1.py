@@ -9,7 +9,7 @@ def cookbook(filename):
             stroka = f.readline().strip()  # читаем файл построчно
             ing = []  # промежуточный список для ингредиентов
             if not stroka:
-                print("Рецепты закончились.")
+                # print("Рецепты закончились.")
                 break
             dish_name = stroka  # сохраняем наименование блюда
             cnt = int(f.readline().strip())  # сохраняем количество ингредиентов
