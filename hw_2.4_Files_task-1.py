@@ -7,7 +7,7 @@ def cookbook(filename):
         while True:
             i = 0  # счетчик
             stroka = f.readline().strip()  # читаем файл построчно
-            ing = []  # промежуточный словарь для ингредиентов
+            ing = []  # промежуточный список для ингредиентов
             if not stroka:
                 print("Рецепты закончились.")
                 break
